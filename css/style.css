@@ -2,6 +2,20 @@ body {
   font-size: 14px;
 }
 
+.navbar-nav {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.nav>li {
+  background-color: white;
+  border-bottom: 1px solid black;
+}
+
+.navbar-inverse .navbar-nav>li>a{
+  color: black;
+}
+
 h3 {
   margin-top: 5px !important;
 }
