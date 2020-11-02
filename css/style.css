@@ -2,6 +2,10 @@ body {
   font-size: 14px;
 }
 
+.navbar {
+  border-radius: 0;
+}
+
 .navbar-nav {
   margin-top: 0;
   margin-bottom: 0;
