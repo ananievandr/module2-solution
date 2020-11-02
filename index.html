@@ -4,43 +4,90 @@
     <meta http-equiv="content-type" content="text/html;charset=utf-8" />
     <meta name="viewport" content="width=device-width, user-scalable=no" />
     <link href="./css/style.css" rel="stylesheet">
+    <!-- Последняя компиляция и сжатый CSS -->  
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
     <title>Assignment Solution for Module 2</title>
   </head>
   <body>
-    <h1>Our menu</h1>
-    <section>
-      <div class="content">
-        <div class="badge rosybrown">
-          Chicken
-        </div>
-        Равным образом реализация намеченных плановых заданий позволяет выполнять важные 
-        задания по разработке соответствующий условий активизации. Задача организации, 
-        в особенности же постоянное информационно-пропагандистское обеспечение нашей 
-        деятельности позволяет оценить значение систем массового участия.
-      </div>
-    </section>
-    <section>
-      <div class="content">
-        <div class="badge red">
-          Beef
-        </div>
-        Равным образом реализация намеченных плановых заданий позволяет выполнять важные 
-        задания по разработке соответствующий условий активизации. Задача организации, 
-        в особенности же постоянное информационно-пропагандистское обеспечение нашей 
-        деятельности позволяет оценить значение систем массового участия.
-      </div>
-    </section>
 
-    <section>
-      <div class="content">
-        <div class="badge yellowgreen">
-          Sushi
-        </div>
-        Равным образом реализация намеченных плановых заданий позволяет выполнять важные 
-        задания по разработке соответствующий условий активизации. Задача организации, 
-        в особенности же постоянное информационно-пропагандистское обеспечение нашей 
-        деятельности позволяет оценить значение систем массового участия.
+  <nav class="navbar navbar-inverse navbar-static-top" role="navigation">
+    <a class="navbar-brand" href="#"><strong>Food, LLC</strong></a>
+    <div class="container visible-xs-block">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
       </div>
-    </section>
+
+      <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+        <ul class="nav navbar-nav">
+          <li><a href="#chicken">Chicken</a></li>
+          <li><a href="#beef">Beef</a></li>
+          <li><a href="#sushi">Sushi</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+    <div class='container-fluid'>
+      <h1 class="text-center">Our menu</h1>
+      <section class="col-md-4 col-sm-6 col-xs-12" id="chicken">
+        <div class="content">
+          <h3 class="text-center"><strong>Chicken</strong></h3>
+          "Sed ut perspiciatis unde omnis iste natus error sit voluptatem 
+          accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae 
+          ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt 
+          explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit 
+          aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem 
+          sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit 
+          amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora 
+          incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad 
+          minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, 
+          nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit 
+          qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui 
+          dolorem eum fugiat quo voluptas nulla pariatur?"
+        </div>
+      </section>
+      <section class="col-md-4 col-sm-6 col-xs-12" id="beef">
+        <div class="content">
+          <h3 class="text-center"><strong>Beef</strong></h6>
+            "Sed ut perspiciatis unde omnis iste natus error sit voluptatem 
+            accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae 
+            ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt 
+            explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit 
+            aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem 
+            sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit 
+            amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora 
+            incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad 
+            minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, 
+            nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit 
+            qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui 
+            dolorem eum fugiat quo voluptas nulla pariatur?"
+        </div>
+      </section>
+
+      <section class="col-md-4 col-sm-6 col-xs-12" id="sushi">
+        <div class="content">
+          <h3 class="text-center"><strong>Sushi</strong></h3>
+          "Sed ut perspiciatis unde omnis iste natus error sit voluptatem 
+          accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae 
+          ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt 
+          explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit 
+          aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem 
+          sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit 
+          amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora 
+          incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad 
+          minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, 
+          nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit 
+          qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui 
+          dolorem eum fugiat quo voluptas nulla pariatur?"
+        </div>
+      </section>
+    </div>
   </body>
 </html>

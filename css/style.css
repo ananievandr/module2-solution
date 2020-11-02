@@ -2,68 +2,18 @@ body {
   font-size: 14px;
 }
 
-h1 {
-  text-align: center;
-  font-size: 1.75em;
+h3 {
+  margin-top: 5px !important;
 }
 
 section {
   padding: 15px;
   box-sizing: border-box;
-  width: 33%;
-  float: left;
 }
 
 .content {
   border: 1px solid black;
-  padding: 30px 15px 15px;
+  padding: 0 15px 15px;
   position: relative;
   background-color: lightgray;
-}
-
-.badge {
-  position: absolute;
-  top: 0;
-  right: 0;
-  padding: 2px 24px;
-  border-left: 1px solid black;
-  border-bottom: 1px solid black;
-  font-weight: bold;
-  box-sizing: border-box;
-  font-size: 1.25em;
-}
-
-.rosybrown {
-  background-color: rosybrown;
-}
-
-.red {
-  background-color: red;
-  color: white;
-}
-
-.yellowgreen {
-  background-color: yellowgreen;
-}
-
-@media screen and (max-width: 767px) {
-  section {
-    clear: both;
-    width: 100%;
-  }
-}
-
-@media screen and (min-width: 768px) and (max-width: 991px)  {
-  section:last-child {
-    clear: both;
-    width: 100%;
-  }
-
-  section:nth-child(3) {
-    width: 50%;
-  }
-
-  section:nth-child(2) {
-    width: 50%;
-  }
 }
